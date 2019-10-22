@@ -1,0 +1,8 @@
+version: '2'
+services:
+  cuda10_box:
+    build: .
+    volumes:
+      - .:/app
+      - /root/ofitserov/localisation/tf:/tf
+      - /root/Downloads/:/Downloads
